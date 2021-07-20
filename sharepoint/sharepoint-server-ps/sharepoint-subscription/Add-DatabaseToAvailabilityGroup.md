@@ -15,6 +15,8 @@ ms.reviewer:
 ## SYNOPSIS
 Adds one or more SharePoint databases to a SQL Server Availability Group
 
+subscription edition
+
 ## SYNTAX
 
 ### Default
