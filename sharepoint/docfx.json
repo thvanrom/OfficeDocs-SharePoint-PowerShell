@@ -23,7 +23,7 @@
     ],
     "versions": {
       "sharepoint-server-ps": {
-        "dest": "sharepoint-ps"
+        "dest": "sharepoint-server-ps"
       },
       "sharepoint-ps": {
         "dest": "sharepoint-ps"
