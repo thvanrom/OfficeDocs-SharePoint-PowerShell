@@ -6,7 +6,7 @@
         "packageRoot": "sharepoint-ps",
         "modules": {
             "sharepoint-online": {},
-            "SharePointServer": {},
+            "sharepoint-server": {},
             "sharepoint-pnp": {}
         }
     },
@@ -16,7 +16,7 @@
             "referenceTocUrl": "/powershell/module/toc.json",
             "packageRoot": "sharepoint-server-ps",
             "modules": {
-                "SharePointServer": {}
+                "sharepoint-server": {}
             }
     }   
 }
