@@ -2,12 +2,12 @@
   "build": {
     "content": [
 
-      {"files": ["**/*.yml", "**/*.md"], "src": "docs-conceptual/sharepoint-main", "version": "sharepoint-ps", "dest": "/powershell/sharepoint" },
-      {"files": ["**/*.yml", "**/*.md"], "src": "docs-conceptual/sharepoint-server", "version": "sharepoint-ps", "dest": "/powershell/sharepoint/sharepoint-server" },
+      {"files": ["**/*.yml", "**/*.md"], "src": "docs-conceptual/sharepoint-main", "version": "sharepoint-ps", "dest": "sharepoint" },
+      {"files": ["**/*.yml", "**/*.md"], "src": "docs-conceptual/sharepoint-server", "version": "sharepoint-ps", "dest": "sharepoint/sharepoint-server" },
       {"files": ["**/*.yml"], "src": "sharepoint-ps", "version": "sharepoint-ps", "exclude": ["docs-conceptual"], "dest": "module"},
 
-      {"files": ["**/*.yml", "**/*.md"], "src": "docs-conceptual/sharepoint-main", "version": "sharepoint-server-ps", "dest": "/powershell/sharepoint" },
-      {"files": ["**/*.yml", "**/*.md"], "src": "docs-conceptual/sharepoint-server-ps", "version": "sharepoint-server-ps", "dest": "/powershell/sharepoint/sharepoint-server" },
+      {"files": ["**/*.yml", "**/*.md"], "src": "docs-conceptual/sharepoint-main", "version": "sharepoint-server-ps", "dest": "sharepoint" },
+      {"files": ["**/*.yml", "**/*.md"], "src": "docs-conceptual/sharepoint-server-ps", "version": "sharepoint-server-ps", "dest": "sharepoint/sharepoint-server" },
       {"files": ["**/*.yml"], "src": "sharepoint-server-ps", "version": "sharepoint-server-ps", "exclude": ["docs-conceptual"], "dest": "module"}
 
     ],
