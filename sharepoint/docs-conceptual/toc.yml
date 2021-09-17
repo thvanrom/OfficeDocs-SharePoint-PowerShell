@@ -1,5 +1,5 @@
 items:
-- name: SharePoint PowerShell - sharepoint-server-ps
+- name: SharePoint PowerShell - main
   href: index.yml
 - name: SharePoint in Microsoft 365
   items:
