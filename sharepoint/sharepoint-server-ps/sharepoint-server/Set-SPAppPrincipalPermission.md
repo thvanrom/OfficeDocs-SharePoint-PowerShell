@@ -37,7 +37,7 @@ $site = Get-SPSite https://siteUrl
 $realm = Get-SPAuthenticationRealm -ServiceContext $site
 $appIdentifier = $clientID + "@" + $realm
 $appPrincipal = Get-SPAppPrincipal -NameIdentifier $appIdentifier -Site $site.RootWeb
-Set-AppPrincipalPermission -AppPrincipal $appPrincipal -Site $site.RootWeb -Scope Site -Level Manage
+Set-SPAppPrincipalPermission -AppPrincipal $appPrincipal -Site $site.RootWeb -Scope Site -Right Manage
 ```
 
 This example sets the App Principal permission to Manage with a scope of Site.
